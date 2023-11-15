@@ -17,7 +17,6 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #0e4749;
-    height: 50em;
 }
 
 section {
@@ -25,7 +24,6 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1em;
 }
 
 .nav {
@@ -35,8 +33,17 @@ section {
     gap: 2em;
 }
 
-.p {
-    color: white;
+.light_mode {
+    .header {background-color: gray;}
+    .footer {background-color: gray;}
+    .p {color: black;}
+}
+
+.dark_mode {
+    .header {background-color: #122c34;}
+    .footer {background-color: #122c34;}
+    .main {background-color: #0e4749;}
+    .p {color: white;}
 }
 
 /* Responsivt for mobil*/
