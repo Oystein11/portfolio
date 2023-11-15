@@ -1,0 +1,1 @@
+En portfolio som viser fram ulike prosjekter og oppgaver jeg har laget.
