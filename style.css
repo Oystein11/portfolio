@@ -14,9 +14,9 @@ header, footer {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #0e4749;
+    height: 50em;
 }
 
 section {
@@ -32,6 +32,7 @@ section {
     justify-content: end;
     gap: 2em;
 }
+.toggler
 
 .light_mode {
     .header {background-color: gray;}
